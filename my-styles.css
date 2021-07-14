@@ -1,33 +1,105 @@
+body{
+    font-family: 'Ramabhadra', sans-serif;
+}
 /* ---------------------
        Header file 
 -------------------------*/
 .menu-bar{
-    display: inline-flex;
     list-style-type: none;
-    color: blue;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr );
 }
-.menu-bar ul li{
-    width: 300px;
-    padding: 15px;
-    margin: 15px;
-}
-.Container-1{
+
+/* ---------------------
+       Header file End
+-------------------------*/
+
+
+/* ---------------------
+       Home page 
+-------------------------*/
+.home-page{
     background-color: darkblue;
 }
-.home-page{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.first-section{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 40px; 
+   margin-top: 0%;
+   margin-bottom: 15%;
 }
+.word-color{
+    color: white;
+}
+h1{
+    font-size: 80px;
+    color: greenyellow;
+}
+ .width-half{
+    width: 50%;
+}
+.width-half img{
+    width: 100%;
+}
+.link-button{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+}
+/* ---------------------
+       Home page 
+-------------------------*/
 .container-2{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
+margin-top: 80px;
 }
 .player-identity{
-padding-left: 150px;
-padding-right: 150px;
+display: flex;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 20px;
+flex-direction: column;
 }
 .player-identity img{
     width: 300px;
     height: 256px;
+}
+.player-identity p{
+    text-align: left;
+    border-color: thistle;
+}
+.section-2{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 40px; 
+   margin-top: 0%;
+   margin-bottom: 15%;
+   background-color: cornflowerblue;
+}
+  .extra-work{
+      color: honeydew;
 
+  }
+}
+footer{
+    margin-top: 80px;
+}
+.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+.footer-icon{
+    text-align: center;
+    direction: large;
+
+}
+.fab{
+  font-size: 70px;
+  padding: 20px;
 }
